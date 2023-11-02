@@ -1,0 +1,14 @@
+Header Font : Grandhotel reguler
+Para Font : Montserrat regular 
+
+Color ::::::::::
+
+White : fffff
+Ash : 303030
+Yello : FFC200
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;500;600;700&display=swap');
+
+font-family: 'Grand Hotel', cursive;
+font-family: 'Montserrat', sans-serif;

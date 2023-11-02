@@ -1,0 +1,43 @@
+.about {
+    padding-top: 80px;
+}
+.aboutImg {
+    background-image: url('../assets/images/about.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: calc(100vh - 72px);
+}
+.aboutText{
+    text-align: center;
+    margin-top: 13rem;
+}
+.aboutText p{
+    font-size: 26px;
+    color: var(--Black-color);
+    padding: 0 15rem;
+}
+.aboutText h2{
+    font-size: 50px;
+    color: var(--Black-color);
+}
+@media (max-width: 991px){
+    .aboutText p{
+        padding: 0;
+    }
+    .aboutImg {
+        height: 70vh;
+    }
+}
+@media (max-width: 767px){
+    .aboutText p {
+        font-size: 20px;
+    }
+    .aboutImg {
+        height: 40vh;
+    }
+    .aboutText{
+        margin-top: 5rem;
+    }
+}

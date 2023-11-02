@@ -1,0 +1,148 @@
+/* UpStatistics */
+.UpStatistics{
+    padding-top: 80px;
+}
+.UpStatistics .UpStatisBg{
+    background: url('../assets/images/vectorUp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.UpstatisticsText{
+    margin-top: 11rem;
+}
+.UpstatisticsText h1{
+    font-size: 80px;
+    color: var(--Yellow-color);
+}
+.UpstatisticsText p{
+    font-size: 16px;
+    color: var(--White-color);
+}
+.UpStatisImg img{
+    width: 25rem;
+}
+/* UpStatistics */
+
+
+/* statistics */
+.statistics{
+    background: var(--Ash-color);
+    height: 100vh;
+    width: 100%;
+    padding: 5rem 0;
+}
+.statisticsBg{
+    background: url('../assets/images/Design2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    padding-top: 3rem;
+}
+.statistics .statisticsText {
+    text-align: center;
+}
+.statistics .statisticsText h1{
+    font-size: 60px;
+    color: var(--Yellow-color);
+}
+.statistics .statisticsText p{
+    font-size: 16px;
+    color: var(--White-color);
+    padding: 0 17rem;
+}
+.statistics .statisticsRound  {
+    text-align: center;
+    margin-top: 2rem;
+}
+.statistics .statisticsRound .round{
+    border: 2px solid var(--White-color);
+    padding: 50px;
+    border-radius: 50%;
+    width: 75%;
+    margin: auto;
+}
+.statistics .statisticsRound .round h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--Yellow-color);
+    font-family: 'Montserrat', sans-serif!important;
+}
+.statistics .statisticsRound .round span{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--White-color);
+}
+/* statistics */
+/* DownStatistics */
+.DownStatistics .DownStatisBg{
+    background: url('../assets/images/vectorDown.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.DownstatisticsText h1{
+    font-size: 80px;
+    color: var(--Yellow-color);
+}
+.DownstatisticsText p{
+    font-size: 16px;
+    color: var(--White-color);
+}
+.DownStatisImg {
+    text-align: end;
+}
+.DownStatisImg img{
+    width: 25rem;
+}
+/* DownStatistics */
+
+
+@media (max-width: 1199px){
+    .statistics .statisticsRound .round {
+        width: 95%;
+    }
+    .statistics .statisticsRound .round {
+        width: 100%;
+    }
+    .statistics .statisticsRound .round {
+        padding: 30px;
+    }
+}
+@media (max-width: 991px){
+    .UpStatisImg img {
+        width: 18rem;
+    }
+    .UpstatisticsText {
+        margin-top: 5rem;
+    }
+    .statistics .statisticsText p {
+        padding: 0;
+    }
+    .DownstatisticsText h1 {
+        font-size: 60px;
+    }
+    .DownStatisImg img {
+        width: 18rem;
+    }
+}
+@media (max-width: 767px){
+    .UpStatistics .UpStatisBg {
+        height: 80vh;
+    }
+    .UpstatisticsText h1 {
+        font-size: 65px;
+    }
+    .DownStatisImg img {
+        width: 18rem;
+        margin-top: 3rem;
+    }
+    .DownstatisticsText {
+        margin-top: 30px;
+    }
+    .statistics .statisticsRound .round {
+        padding: 45px;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Black-color: #000000;
+    --White-color: #ffffff;
+    --Ash-color: #2F2F2F;
+    --Yellow-color: #FFC200;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Grand Hotel', cursive;
+}
+p,span{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none!important;
+    font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style-type: none;
+}
+.button a{
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--Yellow-color);
+    padding: 12px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: var(--Black-color);
+}
+.button a:hover{
+    color: var(--Black-color);
+}

@@ -1,0 +1,41 @@
+.bestS{
+    padding-top: 80px;
+}
+.bestS .bestSHader {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.bestS .bestSHader h1{
+    font-size: 50px;
+    color: var(--Black-color);
+}
+.bestS .bestSHader p{
+    font-size: 18px;
+    color: var(--Black-color);
+    padding: 0 14rem;
+}
+.bestS .bestSCard .cardImg{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.bestS .bestSCard img{
+    width: 11rem;
+}
+.bestS .bestSCard h3{
+    text-align: center;
+}
+.bestS .bestSCard p{
+    font-size: 14px;
+    text-align: center;
+    padding: 0 40px;
+}
+@media (max-width: 991px) {
+    .bestS .bestSHader p {
+        padding: 0 5rem;
+    }
+}
+@media (max-width: 767px) {
+    .bestS .bestSHader p {
+        padding: 0;
+    }
+}

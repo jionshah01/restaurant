@@ -1,0 +1,134 @@
+#navbar {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 50px;
+    transition: 0.6s;
+    height: 72px;
+}
+/* From-JS */
+#navbar.sticky {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .12);
+    padding: 0px 50px;
+    background: #2F2F2F;
+    opacity: 0.9;
+}
+#navbar.sticky .menu ul li a{
+    text-decoration: none;
+}
+#navbar .Brand img{
+    width: 135px;
+}
+#navbar .menu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar .menu ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 15px;
+}
+#navbar .menu ul li a {
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+    color: var(--White-color);
+    text-decoration: none;
+}
+#navbar .btn {
+    color: var(--White-color);
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+    border: none;
+}
+
+@media (max-width: 991px) {
+#navbar .Brand img {
+    width: 100px;
+}
+#navbar .btn {
+    display: block;
+}
+#navbar.sticky .btn{
+    color: var(--White-color);
+}
+#navbar .menu {
+    position: fixed;
+    background: var(--White-color);
+    flex-direction: column;
+    width: 35%;
+    height: 60vh;
+    top: 0;
+    right: -100%;
+    padding: 80px 50px;
+    transition: 0.5s;
+    transition-property: right;
+}
+#navbar .menu ul {
+    margin: 0;
+    padding: 30px 0 0 0;
+    display: inline;
+}
+#navbar .menu ul li {
+    text-align: center;
+}
+#navbar .menu.active {
+    right: 0;
+}
+#navbar .menu .close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 35px;
+    color: var(--Black-color);
+}
+#navbar .menu ul li a {
+    color: var(--Black-color);
+    display: block;
+    font-size: 20px;
+    margin: 15px;
+    padding: 0 10px;
+    text-decoration: none;
+}
+}
+@media (max-width: 575px) {
+#navbar .Brand {
+    margin-top: -6px;
+}
+#navbar .Brand img {
+    width: 80px;
+}
+#navbar {
+    padding: 10px 20px;
+}
+#navbar.sticky {
+    padding: 5px 20px;
+    height: 55px;
+}
+#navbar .btn {
+    font-size: 20px;
+  }
+#navbar .Brand a {
+    font-size: 35px;
+}
+#navbar .menu ul li a {
+    font-size: 16px;
+    margin: 10px;
+    padding: 0px 10px;
+}
+#navbar .menu {
+    width: 40%;
+    height: 45vh;
+    padding: 55px 30px;
+}
+}
+  
